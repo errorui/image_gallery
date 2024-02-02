@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+// lazy loading -TODo
 type ImageType = {
   author: string;
   download_url?: string;
