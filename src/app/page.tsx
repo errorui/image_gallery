@@ -32,24 +32,19 @@ export default function Home() {
   return (
     <div className="bg-blue-200 min-h-[100vh] flex flex-col justify-center items-center">
       <h1 className=" text-[3rem] text-blue-900 font-bold">Photo gallery</h1>
-      {loading ? (
-        <h1 className="text-[3rem] text-white font-extrabold">
-          loading images
-        </h1>
-      ) : (
-        <Gridcontainer>
-          {Posts.map((post) => {
-            return (
-              <Card
-                url="zz"
-                download_url={post.download_url}
-                key={post.id}
-                author={post.author}
-              ></Card>
-            );
-          })}
-        </Gridcontainer>
-      )}
+
+      <Gridcontainer>
+        {Posts.map((post) => {
+          return (
+            <Card
+              url="zz"
+              download_url={post.download_url}
+              key={post.id}
+              author={post.author}
+            ></Card>
+          );
+        })}
+      </Gridcontainer>
 
       <button
         className="  bg-red-500 mx-auto px-2 py-1 text-white rounded-md my-3"
