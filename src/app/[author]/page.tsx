@@ -5,7 +5,7 @@ const Page = () => {
   const query = useSearchParams();
 
   return (
-    <div>
+    <div className="font-body">
       <h1 className="h-[40px]uppercase text-center text-[4rem] text-uppercase mt-4 font-semibold tracking-tighter">
         About the photographer
       </h1>

@@ -12,7 +12,7 @@ const Gridcontainer = ({ children }: gridcontainerprops) => {
         justifyContent: "center",
         alignItems: "center",
       }}
-      className="grid-container gap-3 p-3  bg-blue-200"
+      className="grid-container gap-x-2 p-3 py-4 mt-4  bg-blue-100"
     >
       {children}
     </div>
