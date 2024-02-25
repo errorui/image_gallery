@@ -15,7 +15,7 @@ const template = ({ children }: { children: React.ReactNode }) => {
       }}
       transition={{
         duration: 2,
-        ease: "backInOut",
+        ease: "circInOut",
       }}
     >
       {children}
