@@ -46,10 +46,10 @@ const Modal = ({
           transition={{
             duration: 1,
           }}
-          className="bg-white p-4"
+          className="bg-blue-600 p-4 backdrop-blur-xl bg-opacity-10"
         >
           <Link
-            className="text-blue-800  my-2 text-[1.5rem] text-center"
+            className=" text-white font-bold my-2 text-[1.5rem] text-center"
             href={{
               pathname: `/${selected.author}`,
               query: selected,
