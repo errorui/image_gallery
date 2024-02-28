@@ -36,6 +36,7 @@ export default function App({ setselected }: { setselected: any }) {
       <h1 className=" text-[3rem] text-blue-950 font-bold font-body">
         Photo gallery
       </h1>
+      <h1>hello world</h1>
       <AnimatePresence>
         <Gridcontainer>
           {Posts.map((post) => {
